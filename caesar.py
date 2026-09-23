@@ -12,6 +12,7 @@ from dataclasses import dataclass, field
 class Step:
     no: int
     char: str
+    #paaantekbakar
     is_letter: bool
     start: int | None
     shift: int | None
